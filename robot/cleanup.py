@@ -17,15 +17,15 @@ while n < 2000:
   n = n + 1
   
   print left_side()
-  if left_side() == 'fruit':
-
-    turn(-1)
+  if touch() == 'fruit':
     move()
     print right_side()
   elif right_side() == 'fruit':
     turn(1)
     move()
-  elif touch() == 'fruit':
+  elif left_side() == 'fruit':
+
+    turn(-1)
     move()
   else:
     turn(2)

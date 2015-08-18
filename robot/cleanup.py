@@ -26,6 +26,5 @@ while n < 2000:
     turn(1)
     move()
   else:
-    turn(2)
     move()
     move()

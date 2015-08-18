@@ -12,6 +12,7 @@ move()
 
 n=1
 while n < 2000:
+  n = n + 1
   
   print left_side()
   if left_side() == 'fruit':

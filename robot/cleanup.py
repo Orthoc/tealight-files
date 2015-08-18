@@ -11,4 +11,4 @@ from tealight.robot import (move,
 move()
   
 if left_side() == 'fruit':
-  turn(1)
+  turn(-1)

@@ -28,6 +28,6 @@ while n < 2000:
     turn(-1)
     move()
   else:
-    turn(2)
+    turn(1)
     move()
     move()

@@ -25,3 +25,4 @@ while n < 2000:
     move()
   else:
     turn(2)
+    move()

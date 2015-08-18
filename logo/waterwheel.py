@@ -1,4 +1,4 @@
-2from tealight.logo import move, turn
+from tealight.logo import move, turn
 
 
 def square(side):

@@ -10,5 +10,5 @@ from tealight.robot import (move,
 
 if look() == 'fruit':
   move()
-else
+else:
   turn

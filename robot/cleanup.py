@@ -25,6 +25,9 @@ while n < 2000:
   elif right_side() == 'fruit':
     turn(1)
     move()
+  elif touch() == 'fruit':
+    move()
   else:
+    turn(2)
     move()
     move()

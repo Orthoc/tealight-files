@@ -8,9 +8,7 @@ from tealight.robot import (move,
 
 # Add your code here
 
-distance = 100
-for n in range(0, distance):
-  move()
+move()
   
 if left_side() == 'fruit':
   turn(1)

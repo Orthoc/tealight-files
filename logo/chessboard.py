@@ -12,4 +12,6 @@ polygon(4,100)
 
 move(8)
 turn(90)
-move(10)
+move(8)
+turn(90)
+move(8)

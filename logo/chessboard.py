@@ -19,10 +19,10 @@ move(8)
 n = 1
 while n < 8:
   turn(180)
-  move(8)
+  move(10)
   turn(90)
-  move(8)
+  move(10)
   turn(90)
-  move(8)
+  move(10)
   n = n + 1
 

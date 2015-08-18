@@ -13,6 +13,7 @@ move()
 n=1
 while n < 2000:
   if left_side() == 'fruit':
+    print left_side()
     turn(-1)
     move()
   elif right_side() == 'fruit':

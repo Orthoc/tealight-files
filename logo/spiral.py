@@ -13,5 +13,5 @@ spiral(0)
 
 move(291)
 turn(90)
-move(10)
+move(20)
 

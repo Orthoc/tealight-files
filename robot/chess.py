@@ -8,5 +8,8 @@ from tealight.robot import (move,
 
 # Add your code here
 
+distance = 600
+for n in range(0, distance)
+
 if look() == 'fruit':
   move()

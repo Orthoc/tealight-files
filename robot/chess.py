@@ -8,7 +8,7 @@ from tealight.robot import (move,
 
 # Add your code here
 
-if look() == 'fruit'
+if look() == 'fruit':
   move()
 else
   turn

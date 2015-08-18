@@ -9,5 +9,5 @@ from tealight.robot import (move,
 # Add your code here
 
 while (1==1):
- if look() == 'fruit':
+ if touch() == 'fruit':
     move()

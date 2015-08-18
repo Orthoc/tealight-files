@@ -57,3 +57,6 @@ turn(90)
 move(8)
 turn(90)
 move(8)
+turn(180)
+move(8)
+

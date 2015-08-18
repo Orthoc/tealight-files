@@ -10,6 +10,7 @@ from tealight.robot import (move,
 
 move()
 move()
+move()
 
 n=1
 while n < 2000:
@@ -26,4 +27,5 @@ while n < 2000:
     move()
   else:
     turn(2)
+    move()
     move()

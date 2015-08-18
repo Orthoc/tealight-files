@@ -11,13 +11,3 @@ def spiral(size):
   
 spiral(0)
 
-def spiral(size):
-  
-  if size > 300:
-    return
-  
-  move(size)
-  turn(90)
-  spiral(size + 10)
-  
-spiral(0)

@@ -13,7 +13,7 @@ move()
 n=1
 while n < 2000:
   
-  #print left_side()
+  print left_side()
   if left_side() == 'fruit':
 
     turn(-1)

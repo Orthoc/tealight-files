@@ -7,3 +7,10 @@ from tealight.robot import (move,
                             right_side)
 
 # Add your code here
+
+distance = 500
+
+for n in range(0, distance):
+  move()
+  
+if 

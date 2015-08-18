@@ -8,9 +8,8 @@ from tealight.robot import (move,
 
 # Add your code here
 
-distance = 500
-
-for n in range(0, distance):
+while (1==1):
+ if touch() == 'fruit':
   move()
+ elif look() == 'wall'
   
-if 

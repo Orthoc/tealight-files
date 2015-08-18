@@ -11,6 +11,6 @@ def spiral(size):
   
 spiral(0)
 
-move(340)
+move(200)
 turn(90)
 

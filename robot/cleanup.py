@@ -18,7 +18,7 @@ while n < 2000:
 
     turn(-1)
     move()
-  print right_side()
+    print right_side()
   elif right_side() == 'fruit':
     turn(1)
     move()

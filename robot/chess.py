@@ -10,3 +10,4 @@ from tealight.robot import (move,
 while (1==1):
  if touch() == 'fruit':
   move()
+ elif 

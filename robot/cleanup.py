@@ -10,7 +10,8 @@ from tealight.robot import (move,
 
 move()
 
-while (2==2):
+n=1
+while n < 2000:
   if left_side() == 'fruit':
     turn(-1)
     move()

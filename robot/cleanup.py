@@ -11,9 +11,9 @@ from tealight.robot import (move,
 move()
 
 while (1==1):
-if left_side() == 'fruit':
-  turn(-1)
-  move()
-elif right_side() == 'fruit':
-  turn(1)
-  move()
+  if left_side() == 'fruit':
+    turn(-1)
+    move()
+  elif right_side() == 'fruit':
+    turn(1)
+    move()

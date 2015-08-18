@@ -9,7 +9,8 @@ from tealight.robot import (move,
 # Add your code here
 
 move()
-  
+
+while (1==1)
 if left_side() == 'fruit':
   turn(-1)
   move()

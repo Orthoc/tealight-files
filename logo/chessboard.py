@@ -17,7 +17,7 @@ turn(90)
 move(8)
 
 n = 1
-while n < 8
+while n < 8:
 turn(180)
 move(8)
 turn(90)

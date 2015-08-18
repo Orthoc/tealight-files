@@ -16,3 +16,5 @@ if left_side() == 'fruit':
 elif right_side() == 'fruit':
   turn(1)
   move()
+else
+  

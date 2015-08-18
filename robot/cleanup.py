@@ -12,3 +12,7 @@ move()
   
 if left_side() == 'fruit':
   turn(-1)
+  move()
+elif right_side() == 'fruit':
+  turn(1)
+  move()

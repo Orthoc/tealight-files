@@ -18,3 +18,5 @@ for n in range(0, distance):
     move()
 
 turn(1)
+
+touch()

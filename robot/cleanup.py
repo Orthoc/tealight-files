@@ -9,6 +9,7 @@ from tealight.robot import (move,
 # Add your code here
 
 move()
+move()
 
 n=1
 while n < 2000:

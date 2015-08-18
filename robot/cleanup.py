@@ -19,9 +19,6 @@ while n < 2000:
   print left_side()
   if touch() == 'fruit':
     move()
-  elif look() == 'fruit':
-    move()
-    print right_side()
   elif right_side() == 'fruit':
     turn(1)
     move()
@@ -29,6 +26,9 @@ while n < 2000:
 
     turn(-1)
     move()
+  elif look() == 'fruit':
+    move()
+    print right_side()
   else:
     turn(1)
     move()

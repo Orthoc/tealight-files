@@ -9,7 +9,7 @@ from tealight.robot import (move,
 # Add your code here
 
 n = 1
-while n > 2000:
+while n < 2000:
   n = n + 1
   if touch() == None:
     move()

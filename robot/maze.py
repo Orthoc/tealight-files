@@ -7,7 +7,7 @@ from tealight.robot import (move,
                             right_side)
 
 # Add your code here
-
+move()
 n = 1
 while n > 2000:
   n = n + 1

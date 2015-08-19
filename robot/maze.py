@@ -15,10 +15,10 @@ while n < 2000:
     move()
     print left_side()
   elif left_side == 'wall':
-    turn()
+    turn(1)
     move()
   elif right_side == 'wall':
-    turn()
+    turn(-1)
     move()
     print left_side
 

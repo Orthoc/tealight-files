@@ -8,4 +8,12 @@ from tealight.robot import (move,
 
 # Add your code here
 
-distance = 2000
+n = 1
+while n > 2000:
+  n = n + 1
+  if touch() == None:
+    move()
+  elif left_side == 'wall':
+    turn()
+  elif right_side == 'wall':
+    turn()

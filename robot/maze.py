@@ -8,3 +8,4 @@ from tealight.robot import (move,
 
 # Add your code here
 
+distance = 2000

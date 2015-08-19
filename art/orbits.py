@@ -7,7 +7,7 @@ y = screen_height / 2
 vx = 0
 vy = 0
 ax = 0
-ay = 0.1
+ay = 0
 
 power = 0.3
 
@@ -30,7 +30,7 @@ def handle_keyup(key):
   if key == "left" or key == "right":
     ax = -0.01
   elif key == "up" or key == "down":
-    ay = 0.05
+    ay = 0
     
 def handle_frame():
   global x,y,vx,vy,ax,ay

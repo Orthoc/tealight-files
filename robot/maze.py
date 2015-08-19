@@ -22,5 +22,5 @@ while n < 2000:
     move()
     print left_side()
   elif touch() == 'wall':
-    turn(1)
+    turn(-1)
 

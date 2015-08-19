@@ -11,8 +11,9 @@ from tealight.robot import (move,
 n = 1
 while n > 2000:
   n = n + 1
-  move()
-  if left_side == 'wall':
+  if touch() == None:
+    move()
+  elif left_side == 'wall':
     turn()
   elif right_side == 'wall':
     turn()

@@ -14,11 +14,11 @@ while n < 2000:
   if touch() == None:
     move()
     print left_side()
-  elif left_side == 'wall':
+  elif left_side() == 'wall':
     turn(1)
     move()
-  elif right_side == 'wall':
+  elif right_side() == 'wall':
     turn(-1)
     move()
-    print left_side
+    print left_side()
 

@@ -75,5 +75,3 @@ def handle_mousedown(x,y,button):
         DrawMark()
   if button == "left":
     if win == False:
-      
-      

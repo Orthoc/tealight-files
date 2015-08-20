@@ -1,2 +1,2 @@
 print "A new file!"
-from tealight.io 
+from tealight.io import (box

@@ -2,22 +2,7 @@ print "A new file!"
 from tealight.art import (color, line, spot, circle, box, image, text, background)
 from tealight import *
 
-def DrawMark(x,y):
-  color('blue')
-  spot(x, y, 10, 10)
-  
 
-
-  
-
-  
-
-
-
-    
-def Drawemptysquare(x,y):
-  color('white')
-  box(x, y, 30, 30)
 
 color("black")
 box(0,0,1000,1200)
@@ -67,9 +52,16 @@ spot(222,364,1)
 color("black")
 spot(240,364,1)
 
+def DrawMark(x,y):
+  color('blue')
+  spot(x, y, 10, 10)
+
+def Drawemptysquare(x,y):
+  color('white')
+  box(x, y, 30, 30)
+
 def handle_mousedown(x,y,button):
   if button == "light":
     DrawMark()
   elif button == "left":
     
-        

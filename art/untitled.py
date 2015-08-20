@@ -6,4 +6,3 @@ from tealight import *
 def handle_mousedown(x,y):
   print x
 
-if button == 'left':

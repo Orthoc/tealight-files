@@ -2,5 +2,5 @@ print "A new file!"
 from tealight.io import (color, line, spot, circle, box, image, text, background)
 import github.
 
-while (true)
-  if input('left
+def handle_mousmove(x,y):
+  print 'The mouse moved to ' + x + ',' + y'

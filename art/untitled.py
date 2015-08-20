@@ -13,11 +13,11 @@ def handle_mousedown(x,y):
 
 
     
-def Drawemptysquare quare(x,y):
+def Drawemptysquare(x,y):
   color('white')
   box(x, y, 30, 30)
 
-  color("black")
+color("black")
 box(0,0,1000,1200)
 
 color("white")

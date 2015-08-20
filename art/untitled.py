@@ -20,7 +20,7 @@ box(0,0,1000,1200)
 color("white")
 box(180,200,546,546)
 
-x = 162
+x = 182
 y = 202
 
 for Ycounter in range(0,16):

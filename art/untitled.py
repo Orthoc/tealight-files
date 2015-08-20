@@ -5,15 +5,18 @@ from tealight import *
 def DrawMark(x,y):
   color('blue')
   spot(x, y, 10, 10)
+  
+win == True
+lose == False
 
   
-def handle_mousedown(x,y):
+
   
 
 
 
     
-def Drawemptysquare():
+def Drawemptysquare(x,y):
   color('white')
   box(x, y, 30, 30)
 
@@ -64,3 +67,11 @@ spot(222,364,1)
 
 color("black")
 spot(240,364,1)
+
+def handle_mousedown(x,y,button):
+  if button == 'right'
+    if win == False
+    DrawMark()
+  if button == 'left'
+    if win == False
+      

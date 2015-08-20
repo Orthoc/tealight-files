@@ -69,9 +69,9 @@ color("black")
 spot(240,364,1)
 
 def handle_mousedown(x,y,button):
-  if button == 'Right'
+  if button == "light"
     if win == False
     DrawMark()
-  if button == 'left'
+  if button == "left"
     if win == False
       

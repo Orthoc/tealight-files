@@ -7,6 +7,3 @@ def handle_mousedown(x,y):
   print x
 
 if button == 'left':
-  if input() is in range(0, )
-    del square
-  

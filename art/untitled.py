@@ -71,7 +71,9 @@ spot(240,364,1)
 def handle_mousedown(x,y,button):
   if button == "light":
     if win == False:
-    DrawMark()
+      if lose == False:
+        DrawMark()
   if button == "left":
     if win == False:
+      
       

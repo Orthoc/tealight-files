@@ -61,7 +61,7 @@ def Drawemptysquare(x,y):
   box(x, y, 30, 30)
 
 def handle_mousedown(x,y,button):
-  if button == "light":
+  if button == "right":
     DrawMark()
   elif button == "left":
     

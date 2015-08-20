@@ -1,6 +1,6 @@
 from tealight.art import (color, line, spot, circle, box, image, text, background)
 
-lastx = 2
+lastx = 0
 lasty = 0
 
 

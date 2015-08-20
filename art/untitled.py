@@ -13,8 +13,8 @@ def handle_mousedown(x,y):
 
 
     
-def DrawEmptySquare(x,y):
-  color(white)
+def drawdmptydquare(x,y):
+  color('white')
   box(x, y, 30, 30)
 
   color("black")

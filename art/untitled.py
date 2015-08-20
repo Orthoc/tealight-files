@@ -5,6 +5,6 @@ def handle_mousemove(x,y):
   print 'The mouse moved to '
   print y
 
-if input() is in range(0, 1)
+if input(button == 'left') is in range(0, 1)
   del square
   

@@ -3,4 +3,4 @@ from tealight.art import (color, line, spot, circle, box, image, text, backgroun
 from tealight import *
 def handle_mousemove(x,y):
   print 'The mouse moved to '
-  print x
+  print y

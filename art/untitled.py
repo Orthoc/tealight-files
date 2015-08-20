@@ -6,8 +6,7 @@ def DrawMark(x,y):
   color('blue')
   spot(x, y, 10, 10)
   
-win == False
-lose == False
+
 
   
 
@@ -70,8 +69,7 @@ spot(240,364,1)
 
 def handle_mousedown(x,y,button):
   if button == "light":
-    if win == False:
-      if lose == False:
-        DrawMark()
-  if button == "left":
-    if win == False:
+    DrawMark()
+  elif button == "left":
+    
+        

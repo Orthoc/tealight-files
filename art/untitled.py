@@ -13,7 +13,7 @@ def handle_mousedown(x,y):
 
 
     
-def Drawemptysquare(x,y):
+def Drawemptysquare():
   color('white')
   box(x, y, 30, 30)
 

@@ -6,7 +6,7 @@ def DrawMark(x,y):
   color(red)
   box(x, y, 10, 10)
   
-  
+
 
 
     

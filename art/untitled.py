@@ -3,8 +3,11 @@ from tealight.art import (color, line, spot, circle, box, image, text, backgroun
 from tealight import *
 
 def DrawMark(x,y):
-  color(red)
-  box(x, y, 10, 10)
+  color('blue')
+  spot(x, y, 10, 10)
+
+  
+def handle_mousedown(x,y):
   
 
 

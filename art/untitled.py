@@ -65,3 +65,8 @@ def handle_mousedown(x,y,button):
     DrawMark()
   elif button == "left":
     
+    
+def DrawBomb(x,y):
+  color('red')
+  spot(  
+    

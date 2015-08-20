@@ -6,7 +6,6 @@ def DrawMark(x,y):
   color(red)
   box(x, y, 10, 10)
   
-def 
   
 def handle_mousedown(x,y):
   

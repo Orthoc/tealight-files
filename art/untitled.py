@@ -7,13 +7,7 @@ def DrawMark(x,y):
   box(x, y, 10, 10)
   
   
-def handle_mousedown(x,y):
-  
-   
 
-if button == 'left':
-  if input() is in range(0, )
-    del square
 
     
 def DrawEmptySquare(x,y):

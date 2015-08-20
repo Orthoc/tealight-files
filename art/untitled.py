@@ -6,7 +6,7 @@ def DrawMark(x,y):
   color('blue')
   spot(x, y, 10, 10)
   
-win == True
+win == False
 lose == False
 
   

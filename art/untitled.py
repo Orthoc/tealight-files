@@ -60,13 +60,5 @@ def Drawemptysquare(x,y):
   color('white')
   box(x, y, 30, 30)
 
-def handle_mousedown(x,y,button):
-  if button == "right":
-    DrawMark()
-  elif button == "left":
-    
-    
-def DrawBomb(x,y):
-  color('red')
-  spot(  
+  
     
